@@ -39,15 +39,17 @@ let sortfruit = fruits.sort();
 console.log(sortfruit);
 
 
-// toSort method
+// toSort method is best way to sort an array 
 const months = ["Jan", "Feb", "Mar", "Apr"];
 console.log(months)
 const sorted = months.toSorted();
 console.log(months)
 
+
+// number sorting 
 let sortArr = [10,25,60,9,85,5,33];
-let newArr = sortArr.sort();
-console.log(newArr);
+let newArr = sortArr.sort(function(a,b) {return a - b});
+console.log('number sorting array is : ',newArr);
 
 
 
