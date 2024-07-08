@@ -71,3 +71,26 @@ console.log('Even Number is : ', res.Even);
 
 
 
+const studentInfo = {
+    name : 'atiqur rahman',
+    age : 36,
+    address : 'rajshahi',
+    subject : ['software', 'javascript', 'react js', 'node js', 'php'],
+    details : function(){
+            return `City is : ${this.address} And Age  : ${this.age}` 
+    }
+
+}
+
+let fullInfo = studentInfo.details();
+console.log(fullInfo);
+
+let changeVal= studentInfo.subject[4] = 'Web Developer';
+console.log(changeVal);
+
+let subjectStudent = studentInfo.subject[1];
+console.log('subject is : ', subjectStudent)
+
+// console.log('student Info : ',studentInfo);
+
+
