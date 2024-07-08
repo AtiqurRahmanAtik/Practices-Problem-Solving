@@ -33,6 +33,23 @@ for(let i = 0; i< arr_2.length ; i++ ){
 console.log('Big Value is : ',big);
 
 
+// arr Sort
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let sortfruit = fruits.sort();
+console.log(sortfruit);
+
+
+// toSort method
+const months = ["Jan", "Feb", "Mar", "Apr"];
+console.log(months)
+const sorted = months.toSorted();
+console.log(months)
+
+let sortArr = [10,25,60,9,85,5,33];
+let newArr = sortArr.sort();
+console.log(newArr);
+
+
 
 
 
