@@ -53,5 +53,21 @@ console.log('number sorting array is : ',newArr);
 
 
 
+// Reverses array and also 
+const reverseArr= (arr) =>{
+    // console.log('arr is : ', arr);
+    let newVal = arr.reverse();
+
+    const evenNum =newVal.filter((e)=> e % 2 ===0);
+    return  {reverse : newVal, Even : evenNum};
+}
+
+let val = [7,51,32,41,22];
+
+let res = reverseArr(val);
+
+console.log('reverses value is : ', res.reverse);
+console.log('Even Number is : ', res.Even);
+
 
 
