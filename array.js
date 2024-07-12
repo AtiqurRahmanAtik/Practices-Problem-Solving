@@ -94,3 +94,11 @@ console.log('subject is : ', subjectStudent)
 // console.log('student Info : ',studentInfo);
 
 
+
+
+let sum = (a,b)=>{
+    let res = a + b;
+    return res ;
+}
+
+console.log(sum(5,15));
